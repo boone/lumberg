@@ -14,7 +14,7 @@ module Lumberg
     end
 
     describe "#add" do
-      use_vcr_cassette "cpanel/park/add"
+      use_vcr_cassette "cpanel/park/add", :record => :new_episodes
 
       it "creates a new parked domain" do
         # Remove first
