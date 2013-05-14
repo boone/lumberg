@@ -20,7 +20,7 @@ Gem::Specification.new do |s|
   s.add_runtime_dependency('jruby-openssl', '~> 0.7.3') if RUBY_PLATFORM == 'java'
   s.add_development_dependency 'rspec', '~> 2.10.0'
   s.add_development_dependency 'webmock', '~> 1.8.7'
-  s.add_development_dependency 'vcr', '~> 2.0.0rc2'
+  s.add_development_dependency 'vcr', '~> 2.1.1'
   s.add_development_dependency 'rake', '~> 0.9.2.2'
 
   s.files         = `git ls-files`.split("\n")
